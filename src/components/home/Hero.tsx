@@ -104,15 +104,20 @@ export const Hero = () => {
         <div className="w-[1px] h-12 bg-gradient-to-b from-white/50 to-transparent"></div>
       </div>
 
-      {/* ThIA Avatar */}
-      <div className="absolute bottom-0 right-10 w-48 h-48 md:w-64 md:h-64 z-20 pointer-events-none animate-float-avatar opacity-90 hidden sm:block">
+      {/* ThIA Avatar - WhatsApp CTA */}
+      <a 
+        href="https://chat.whatsapp.com/EqnzD3PaYx54rfS4fG4Rx1?mode=gi_t"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="absolute bottom-0 right-10 w-48 h-48 md:w-64 md:h-64 z-30 pointer-events-auto animate-float-avatar opacity-95 hover:opacity-100 hover:scale-105 transition-all duration-300 hidden sm:block cursor-pointer"
+      >
         <Image 
-          src="/thia/thIA-girl-IS-inteligencia-sevila-saluda.png" 
-          alt="ThIA - Avatar Inteligencia Sevilla" 
+          src="/thia/thia-cta-whatsapp-hero-girl.png" 
+          alt="Contacta por WhatsApp con Inteligencia Sevilla" 
           fill 
-          className="object-contain" 
+          className="object-contain drop-shadow-[0_10px_30px_rgba(225,29,72,0.3)]" 
         />
-      </div>
+      </a>
 
       {/* Ambient glows */}
       <div className="absolute -top-[10%] -left-[10%] w-[40%] h-[40%] bg-rose-600/10 blur-[120px] rounded-full pointer-events-none z-0"></div>
