@@ -42,7 +42,7 @@ export default function ContactoPage() {
                     </div>
                     <div>
                       <p className="text-xs uppercase tracking-widest text-zinc-500 font-bold">Email</p>
-                      <p className="text-white">hola@inteligenciasevilla.com</p>
+                      <p className="text-white">info@inteligenciasevilla.com</p>
                     </div>
                   </div>
                   <div className="flex items-center gap-4 group">
@@ -60,7 +60,7 @@ export default function ContactoPage() {
                     </div>
                     <div>
                       <p className="text-xs uppercase tracking-widest text-zinc-500 font-bold">Ubicación</p>
-                      <p className="text-white">Sevilla, España</p>
+                      <p className="text-white">Astronomía 1, Torre 2, 8º Mod 2, Sevilla - Torres Torneo</p>
                     </div>
                   </div>
                 </div>

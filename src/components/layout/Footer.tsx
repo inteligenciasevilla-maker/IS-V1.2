@@ -56,8 +56,8 @@ export const Footer = () => {
           <div className="md:col-span-1">
             <h4 className="font-heading text-lg font-bold mb-6 text-white uppercase tracking-wider">Ubícanos</h4>
             <ul className="space-y-4">
-              <li className="text-zinc-500 text-sm">Sevilla, España</li>
-              <li className="text-zinc-500 text-sm">hola@inteligenciasevilla.com</li>
+              <li className="text-zinc-500 text-sm">Astronomía 1, Torre 2, 8º Mod 2, Sevilla - Torres Torneo</li>
+              <li className="text-zinc-500 text-sm">info@inteligenciasevilla.com</li>
             </ul>
           </div>
         </div>
